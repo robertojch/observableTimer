@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'observableTimer';
+
+  logCompleted(){
+    console.log("it has completed");
+  }
 }
